@@ -1,0 +1,59 @@
+#appsmenu {
+    background: transparent;
+    margin: 0 !important;
+    bottom: 43px;
+    border-radius: 0px;
+    border-top-right-radius: 16px;
+    left: 0;
+}
+
+.curtheme::before {
+    content: 'Classic';
+   }
+
+.context-menu {
+    background: transparent;
+}
+
+a, h1, p, span, ul, li, #appicons a, #appsHtxt, #icons, #time, #date {
+    color: white;
+}
+strong {
+    color: white !important;
+}
+.winmaximize > span {
+    border: 2px solid white;
+    border-top: 3px solid white;
+}
+.winminimize > span {
+    border-bottom: 3px solid white;
+}
+#taskbar {
+    background: transparent;
+    bottom: 0;
+    width: 100%;
+    text-align: unset;
+    border-radius: 0px;
+}
+.window {
+    background: transparent;
+}
+#appsPanel {
+    left: unset;
+    position: unset;
+}
+
+#icons {
+    display: block;
+}
+
+#centrdAppsChk, .centrdAppsTxt, #showContainedChk, .showContainedTxt, .tskbrtab, #dmToggle, .drkmodetxt {
+    display: none;
+}
+
+#desktop {
+    background: url("https://bing.biturl.top/?resolution=3840&format=image&index=0&mkt=en-CA");
+}
+#app0i, #app1i {
+    display: block;
+}
